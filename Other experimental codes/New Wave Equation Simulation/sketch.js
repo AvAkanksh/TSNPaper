@@ -30,12 +30,12 @@ function draw() {
 	push();
 	strokeWeight(10);
 	push();
-	stroke(0, 0, 0);
 	beginShape();
-	noFill();
+	stroke(0,0,0);
 	for (let i = 0; i < wave.length; i++) {
 		vertex(wave[i].x, wave[i].y, wave[i].z);
 	}
+	noFill();
 	endShape();
 	pop();
 	push();
