@@ -57,7 +57,6 @@ function draw() {
 	endShape();
 	pop();
 	pop();
-	orbitControl();
 
 	time += 0.1;
 	if (wave.length > 250) {
@@ -88,6 +87,8 @@ function draw() {
 	if (axis_value.checked()) {
 		axis();
 	}
+	orbitControl();
+
 }
 // function axis() {
 // push();
